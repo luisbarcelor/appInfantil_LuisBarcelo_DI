@@ -22,6 +22,7 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         App.stage = stage;
         scene = new Scene(loadFXML("login"));
+        stage.setTitle("Kids Star");
         stage.setResizable(false);
         stage.setScene(scene);
         stage.show();

@@ -60,7 +60,7 @@ public class SnakeGame extends Application {
         stage.setScene(scene);
         stage.setResizable(false);
         stage.getIcons().add(favicon);
-        stage.setTitle("myGamez - Snake");
+        stage.setTitle("Snake");
         stage.show();
 
         gContext = primaryController.canvas.getGraphicsContext2D();

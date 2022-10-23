@@ -27,6 +27,7 @@ public class Colorz extends Application {
         Colorz.stage = stage;
         scene = new Scene(loadFXML("colorz"));
         stage.setScene(scene);
+        stage.setTitle("Colorz");
         stage.setResizable(false);
         stage.show();
 
