@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="root" prefHeight="520.0" prefWidth="600.0" stylesheets="@stylesheets/colorz.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.appinfantil.interfaz.controllers.ColorzController">
+   <children>
+       <VBox maxHeight="120.0" minHeight="100.0" spacing="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+           <Label fx:id="title" text="¿De qué color es la cabra?" />
+           <HBox fx:id="top" alignment="CENTER_LEFT">
+               <children>
+                   <VBox fx:id="statsCont" alignment="CENTER" maxHeight="80.0" minWidth="220.0">
+                       <VBox fx:id="stats" alignment="CENTER_LEFT" minHeight="80.0" spacing="10.0">
+                           <Label text="Puntos: ">
+                        <VBox.margin>
+                           <Insets left="5.0" />
+                        </VBox.margin>
+                     </Label>
+                           <Label>
+                        <VBox.margin>
+                           <Insets left="5.0" />
+                        </VBox.margin>
+                     </Label>
+                       </VBox>
+                   </VBox>
+                   <VBox fx:id="timeBox" alignment="CENTER">
+                       <children>
+                           <Label text="Time" />
+                           <Label />
+                       </children>
+                   </VBox>
+                   <ImageView fx:id="goat" fitHeight="100.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+           </HBox>
+       </VBox>
+
+      <GridPane hgap="10.0" layoutX="114.0" layoutY="200.0" vgap="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="130.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="amarillo" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonPressed" text="Amarillo" />
+            <Button fx:id="rojo" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonPressed" text="Rojo" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="verde" lineSpacing="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonPressed" text="Verde" GridPane.columnIndex="1" />
+            <Button fx:id="marron" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonPressed" text="Marrón" GridPane.rowIndex="1" />
+            <Button fx:id="morado" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonPressed" text="Morado" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="naranja" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonPressed" text="Naranja" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="azul" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonPressed" text="Azul" GridPane.rowIndex="2" />
+            <Button fx:id="negro" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonPressed" text="Negro" GridPane.columnIndex="2" />
+            <Button fx:id="blanco" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonPressed" text="Blanco" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+         </children>
+         <padding>
+            <Insets top="35.0" />
+         </padding>
+      </GridPane>
+   </children>
+</AnchorPane>

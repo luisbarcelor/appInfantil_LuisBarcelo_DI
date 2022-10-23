@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+.root {
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    -fx-background-image: url("img/background.png");
+    -fx-font-family: 'Fuzzy Bubbles', cursive;
+}
+#score {
+    -fx-background-color: #FAA5B1;
+    -fx-background-radius: 20px;
+    -fx-font-size: 26px;
+}
+
+#difficulty {
+    -fx-background-color: #FFE73B;
+    -fx-background-radius: 20px;
+    -fx-font-weight: bold;
+    -fx-font-size: 19px;
+}
+
+#reset {
+    -fx-background-color: #53A2DB;
+    -fx-background-radius: 20px;
+    -fx-font-weight: bold;
+    -fx-font-size: 19px;
+}
+
+#difficulty:hover {
+    -fx-background-color: #C4C4C4;
+}
+
+#difficulty:pressed {
+    -fx-background-color: #FF9191FF;
+}
+
+#reset:hover {
+    -fx-background-color: #C4C4C4;
+}
+
+#reset:pressed {
+    -fx-background-color: #FF9191FF;
+}

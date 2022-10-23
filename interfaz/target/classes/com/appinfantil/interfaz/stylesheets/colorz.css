@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+#root {
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    -fx-background-image: url("../img/background.png");
+    -fx-padding: 1em;
+    -fx-font-size: 1.4em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000;
+    -fx-font-family: 'Fuzzy Bubbles', cursive;
+}
+
+#top {
+    -fx-spacing: 5em;
+    -fx-font-size: 1em;
+}
+
+#title {
+    -fx-text-fill: #FFF;
+    -fx-font-size: 1.5em;
+}
+
+#stats {
+    -fx-padding: 0.8em;
+    -fx-background-color: #EBEBEB;
+    -fx-background-radius: 2em;
+}
+
+#timeBox {
+    -fx-max-height: 80px;
+    -fx-min-width: 80px;
+    -fx-background-color: #EBEBEB;
+    -fx-background-radius: 6em;
+}
+
+Button {
+    -fx-background-radius: 1.5em;
+    -fx-text-fill: #000;
+}
+
+Button:hover {
+    -fx-translate-y: -0.5em;
+}
+
+#amarillo {
+    -fx-background-color: #FFFF00;
+}
+
+#amarillo:pressed {
+    -fx-background-color: #C4C4C4;
+}
+
+
+#rojo {
+    -fx-background-color: #FF0000;
+}
+
+#rojo:pressed {
+    -fx-background-color: #C4C4C4;
+}
+
+#azul {
+    -fx-background-color: #0000FF;
+}
+
+#azul:pressed {
+    -fx-background-color: #C4C4C4;
+}
+
+#verde {
+    -fx-background-color: #00FF00;
+}
+
+#verde:pressed {
+    -fx-background-color: #C4C4C4;
+}
+
+#morado {
+    -fx-background-color: #AA00FF;
+}
+
+#morado:pressed {
+    -fx-background-color: #C4C4C4;
+}
+
+#naranja {
+    -fx-background-color: #FF7700;
+}
+
+#naranja:pressed {
+    -fx-background-color: #C4C4C4;
+}
+
+#negro {
+    -fx-background-color: #000;
+    -fx-text-fill: #FFF;
+}
+
+#negro:pressed {
+    -fx-background-color: #A4A4A4;
+}
+
+#blanco {
+    -fx-background-color: #FFF;
+    -fx-text-fill: #000;
+}
+
+#blanco:pressed {
+    -fx-background-color: #A4A4A4;
+}
+
+#marron {
+    -fx-background-color: #582308;
+}
+
+#marron:pressed {
+    -fx-background-color: #C4C4C4;
+}

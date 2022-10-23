@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER" prefHeight="224.0" prefWidth="601.0" spacing="70.0" stylesheets="@difficulty.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.appinfantil.snake.controllers.DifficultyController">
+   <children>
+      <Button fx:id="easy" mnemonicParsing="false" onAction="#difficultyEasy" prefHeight="70.0" prefWidth="130.0" text="Easy">
+         <font>
+            <Font name="Fira Mono Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="medium" mnemonicParsing="false" onAction="#difficultyMedium" prefHeight="70.0" prefWidth="130.0" text="Medium">
+         <font>
+            <Font name="Fira Mono Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="hard" mnemonicParsing="false" onAction="#difficultyHard" prefHeight="70.0" prefWidth="130.0" text="Hard">
+         <font>
+            <Font name="Fira Mono Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+   </children>
+</HBox>

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+#root {
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    -fx-background-image: url("../img/background.png");
+    -fx-padding: 20;
+    -fx-font-family: 'Fuzzy Bubbles', cursive;
+    -fx-font-size: 1.4em;
+    -fx-text-fill: #000;
+}
+
+Label {
+    -fx-text-fill: #FFF;
+    -fx-font-size: 2em;
+}
+
+.button {
+    -fx-focus-traversable: false;
+    -fx-background-radius: 0.5em;
+    -fx-background-color: #FFE73B;
+}
+
+.button:hover {
+    -fx-background-color: #FAA5B1;
+    -fx-cursor: hand;
+}
+
+#logout {
+    -fx-background-radius: 5em;
+}
+
+#bigPic {
+    -fx-padding: 0.8em;
+    -fx-background-color: #53A2DB;
+    -fx-background-radius: 0.5em;
+}

@@ -1,0 +1,5 @@
+com/appinfantil/interfaz/App.class
+com/appinfantil/interfaz/PostLoginController.class
+com/appinfantil/interfaz/SignUpController.class
+module-info.class
+com/appinfantil/interfaz/LoginController.class

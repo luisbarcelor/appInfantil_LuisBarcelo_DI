@@ -1,0 +1,54 @@
+/* yellow - #FFE73B
+   blue - #53A2DB
+   pink - #FAA5B1
+   brown - #603C3C
+ */
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+#root {
+    -fx-pref-height: 500;
+    -fx-pref-width: 520;
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    -fx-background-image: url("../img/background.png");
+    -fx-font-family: 'Fuzzy Bubbles', cursive;
+    -fx-font-size: 1.4em;
+    -fx-text-fill: #000;
+}
+
+.input {
+    -fx-background-radius: 0.75em;
+    -fx-border-radius: 0.5em;
+    -fx-pref-height: 2em;
+    -fx-border-width: 0.15em;
+    -fx-border-style: solid;
+}
+
+.input:focused {
+    -fx-border-color: #53A2DB;
+    -fx-border-width: 0.1em;
+}
+
+.button {
+    -fx-background-radius: 0.5em;
+    -fx-background-color: #FFE73B;
+    -fx-pref-width: 10em;
+}
+
+.button:hover {
+    -fx-background-color: #FAA5B1;
+    -fx-cursor: hand;
+}
+
+.inputCont {
+    -fx-spacing: 1em;
+}
+
+.inputHCont {
+    -fx-spacing: 1em;
+}
+
+#errors {
+    -fx-text-fill: red;
+    -fx-font-size: 0.85em;
+}
