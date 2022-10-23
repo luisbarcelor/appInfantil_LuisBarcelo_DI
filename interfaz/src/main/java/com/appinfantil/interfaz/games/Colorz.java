@@ -2,6 +2,7 @@ package com.appinfantil.interfaz.games;
 
 import com.appinfantil.interfaz.App;
 import com.appinfantil.interfaz.controllers.ColorzController;
+import com.appinfantil.snake.SnakeGame;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -28,6 +29,7 @@ public class Colorz extends Application {
         scene = new Scene(loadFXML("colorz"));
         stage.setScene(scene);
         stage.setTitle("Colorz");
+        stage.getIcons().add(App.favicon);
         stage.setResizable(false);
         stage.show();
 

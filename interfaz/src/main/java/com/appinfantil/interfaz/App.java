@@ -1,10 +1,12 @@
 package com.appinfantil.interfaz;
 
 import com.appinfantil.interfaz.dao.User;
+import com.appinfantil.snake.SnakeGame;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import javax.sound.sampled.AudioInputStream;
@@ -17,12 +19,14 @@ public class App extends Application {
     private static Scene scene;
     public static Stage stage;
     public static Clip audio;
+    public static final Image favicon = new Image(String.valueOf(App.class.getResource("img/star.png")));
 
     @Override
     public void start(Stage stage) throws IOException {
         App.stage = stage;
         scene = new Scene(loadFXML("login"));
         stage.setTitle("Kids Star");
+        stage.getIcons().add(favicon);
         stage.setResizable(false);
         stage.setScene(scene);
         stage.show();

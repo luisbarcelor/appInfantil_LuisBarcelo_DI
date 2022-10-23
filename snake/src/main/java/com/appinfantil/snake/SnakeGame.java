@@ -37,7 +37,7 @@ public class SnakeGame extends Application {
     private static Background background;
     private static Fruit fruit;
     private static Snake snake;
-    private static final Image favicon = new Image(String.valueOf(SnakeGame.class.getResource("img/apple.png")));
+    private static final Image favicon = new Image(String.valueOf(SnakeGame.class.getResource("img/star.png")));
 
     /**
      * This method overrides the "start()" method from Application class. It is responsible for displaying all game
