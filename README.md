@@ -1,5 +1,6 @@
-# App Infantil Desarrollo de Interfaces - [Ver Prototipo](https://luisbarcelo10513.invisionapp.com/console/share/SJ5PRYV4U36/966844142)
+# App Infantil Desarrollo de Interfaces
 ### Autor: Luis Barcelo
+#### ***[Ver Prototipo](https://luisbarcelo10513.invisionapp.com/console/share/SJ5PRYV4U36/966844142)***
 
 Este es el proyecto de aplicacion infantil para el módulo de desarrollo de interfaces    
 de DAM 2. En este repositorio se esta subida toda la información que se pide en la tarea:  
