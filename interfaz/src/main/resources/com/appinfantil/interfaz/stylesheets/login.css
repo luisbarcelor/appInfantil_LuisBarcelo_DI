@@ -52,3 +52,7 @@
     -fx-text-fill: red;
     -fx-font-size: 0.85em;
 }
+
+#warning {
+    -fx-font-size: 0.85em;
+}

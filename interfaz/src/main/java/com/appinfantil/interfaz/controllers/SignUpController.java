@@ -26,6 +26,11 @@ public class SignUpController {
     }
 
     public void createAccount() throws IOException {
-        ConnectionManager.createUser(this);
+        ConnectionManager.createUser();
+    }
+
+    @FXML
+    public void initialize() {
+        ConnectionManager.signUpController = this;
     }
 }
